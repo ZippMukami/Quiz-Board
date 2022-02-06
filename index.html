@@ -5,95 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Board</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <script src="index.js" type="text/javascript"></script>
 </head>
 <body>
-<div class="page1">
     <h1>HTML Quiz</h1>
-    <button>Take the Quiz</button>
-
-</div>
-
-   <div class="page2">
-    <h2> 1. Define HTML</h2>
-    <div class="choice-a">
+    <form name="quizHTML" id="quizHTML">
         
-        <label for="definationRadio" class="radio1">
-            <input type="radio" name="radioSelectors" id="definationRadio" class="inputClass1">
-            <div class="choice1"></div>
-            Hyper Text Markup Language             
-                            
-        </label>
-    </div>
-    <!-- <div class="choice-b"> -->
+        <div>
+            <h2>1. Define HTML</h2>
+            <p><input type="radio" name="question1" value="a"> a.) Hyper Text Markup Language</p>
+            <p><input type="radio" name="question1" value="b"> b.) It is a styling language</p>
+            <p><input type="radio" name="question1" value="HTML"> c.) It is a program that defines behavior of web pages</p>
+            <p><input type="radio" name="question1" value="HTML"> d.) It is a foreign language</p>
 
-    </div>
-   </div>
+        </div>
 
-    <div class="page3">
-        <div class="Q2"></div>
-            <h2> 2. Which of the following is not a HTML tag?</h2>
-        <ul>
-            <button><li>a.) header </li></button>
-            <button><li>b.) body </li></button>
-            <button><li>c.) class </li></button>
-            <button><li>d.) head </li></button>
-        </ul>
-    </div>
-
-<div class="page4">
-    <div class="Q3">
-        <h2> 3. Which of the following is not a HTML attribute?</h2>
-        <ul>
-            <button><li>a.) class</li></button>
-            <button><li>b.) id</li></button>
-            <button><li>c.) content </li></button>
-            <button><li>d.) html </li></button>
-        </ul>
-    </div>
-</div>
-
-<div class="page5">
-    <div class="Q4">
-    <h2> 4. What is the purpose of CSS?</h2>
-    <ul>
-        <button><li>a.) I don't know</li></button>
-        <button><li>b.) independenlty creating websites</li></button>
-        <button><li>c.) Deleting web pages.</li></button>
-        <button><li>d.) Styling html elemts.</li></button>
-    </ul>
-</div>
-</div>
-
-<div class="page6">
-    <div class="Q5">
-        <h2> 5. What is the function of the DOCTYPE tag?</h2>
-        <ul>
-            <button><li>a.) It is not a declaration</li></button>
-            <button><li>b.) Not sure</li></button>
-            <button><li>c.) It informs the browser about what document type to expect</li></button>
-            <button><li>d.) Type of html tag</li></button>
-        </ul>
-    </div>
-</div>
-
-
-
-<div class="page7">
-    <div class="Q6">
-        <h2>6. Why do we put comments in html? </h2>
-        <ul>
-            <button><li>a.) Help in documenting your source code</li></button>
-            <button><li>b.) Good styling formats </li></button>
-            <button><li>c.) Help the page load faster </li></button>
-            <button><li>d.) Give further details in the web page.</li></button>
-        </ul>
-    </div>
-</div>
-
-
-<div class="page8">
-    <button>Click to check your score</button>
-</div>
+        <!-- <div>
+            <h2>2. Which of the following is not a HTML tag?</h2>
+            <p><input type="radio" name="question"></p>
+        </div> -->
+    </form>
 </body>
 </html>
