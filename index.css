@@ -1,0 +1,208 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(147, 147, 252);
+    width: 100%;
+    height: 100vh;
+}
+
+.page1 {
+    margin: 150px;
+    margin-left: 350px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50vh;
+    background-color: white;
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.page1 button {
+    background-color: blue;
+    margin: 50px;
+    height: 70px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-top: 10px;
+    font-weight: bolder;
+    border: none;
+    font-size: 30px;
+}
+
+.page1 button:link {
+    background-color: purple;
+}
+
+.page1 button:visited {
+    background-color: red;
+}
+
+
+.page1 button:active {
+    background-color: aqua;
+}
+
+.page1 button:hover {
+    background-color: violet;
+}
+
+.radio1{
+    display: inline-flex; 
+    align-items: center;
+}
+
+.inputClass1{
+    display: none;
+}
+
+.choice1{
+    width: 20px;
+    height: 20px;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 2px;
+}
+
+.choice1::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(5, 5, 117);
+    border-radius: 50%;
+    display: block;
+
+    transform: scale(0);
+    /* transition: transform0.15s; */
+}
+
+.inputClass1:checked + .choice1::after{
+    transform: scale(1);
+}
+     
+
+.page3 ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+}
+
+.page3 li {
+    text-align: left;
+
+}
+
+.page3 button {
+    margin: 10px;
+    margin-left: 100px;
+}
+
+.page4 ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+}
+
+.page4 li {
+    text-align: left;
+
+}
+
+.page4 button {
+    margin: 10px;
+    margin-left: 100px;
+}
+
+
+.page5 ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+}
+
+.page5 li {
+    text-align: left;
+
+}
+
+.page5 button {
+    margin: 10px;
+    margin-left: 100px;
+}
+
+
+.page6 ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+}
+
+.page6 li {
+    text-align: left;
+
+}
+
+.page6 button {
+    margin: 10px;
+    margin-left: 100px;
+}
+
+
+.page7 ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+}
+
+.page7 li {
+    text-align: left;
+
+}
+
+.page7 button {
+    margin: 10px;
+    margin-left: 100px;
+}
+
+.page8 {
+    margin-left: 400px;
+    align-items: center;
+}
+
+
+.page8 button {
+    background-color: rgb(5, 5, 117);
+    margin: 50px;
+    height: 70px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-top: 10px;
+    font-weight: bolder;
+    border: none;
+    font-size: 30px;
+}
+
+.page8 button:hover {
+    background-color: plum;
+}
